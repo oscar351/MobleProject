@@ -45,8 +45,8 @@ logs = logManage()  # 사용자 관리 API 로그를 남기기 위한 객체 할
 def addInspection():
 
     commServ = commonService()
-    commUtilServ = commUtilService()
-    servUserMana = servUserManage()
+    # commUtilServ = commUtilService()
+    # servUserMana = servUserManage()
     servProjInspMana = servProjectInspManage()
 
     sProjMana = sqlProjectManage()
